@@ -74,7 +74,7 @@ h1 {
   transition: all 0.3s ease-in-out 0s;
 }
 .navbar-default .nav li a {
-  color: #fff;
+  color: #005dab;
   font-family: 'Open Sans', helvetica, arial, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
@@ -88,10 +88,11 @@ h1 {
 .navbar-default .navbar-nav > .active > a:hover {
   background: transparent;
   color: #fff;
-  border-top: 6px solid #1ab394;
+  border-top: 6px solid #005dab;
 }
 .navbar-default .navbar-nav > li > a:hover {
-  color: #1ab394;
+  color: #ADD8E6;
+  border-top: 6px solid #005dab;
 }
 .navbar-default .navbar-nav > .active > a:focus {
   background: transparent;
@@ -103,7 +104,7 @@ h1 {
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  background: #17a185;
+  background-color: #1394;
   color: #fff;
 }
 .navbar-default .navbar-brand {
@@ -111,8 +112,7 @@ h1 {
   height: auto;
   display: block;
   font-size: 14px;
-  background: #1ab394;
-  padding: 15px 20px 15px 20px;
+  padding: 5px 5px;
   border-radius: 0 0px 5px 5px;
   font-weight: 700;
   transition: all 0.3s ease-in-out 0s;
@@ -121,7 +121,7 @@ h1 {
   color: #676a6c;
 }
 .navbar-scroll.navbar-default .nav li a:hover {
-  color: #1ab394;
+  color: #1394;
 }
 .navbar-wrapper .navbar.navbar-scroll {
   padding-top: 0;
@@ -133,32 +133,39 @@ h1 {
   padding: 25px 10px 15px 10px;
 }
 .navbar-scroll .navbar-nav > li > a {
-  padding: 20px 10px;
+  padding: 40px 10px;
 }
 .navbar.navbar-scroll .navbar-brand {
   margin-top: 15px;
   border-radius: 5px;
   font-size: 12px;
-  padding: 10px;
+  padding: 5px;
   height: auto;
 }
 /* BACKGROUNDS SLIDER
 -------------------------------------------------- */
 .header-back {
-  height: 470px;
+  height: 340px;
   width: 100%;
 }
 .header-back.one {
-  background: url('../img/header_one.jpg') 50% 0 no-repeat;
+  background: url('../img/slide1.jpg') no-repeat;
+  background-size: cover;
+
 }
 .header-back.two {
-  background: url('../img/header_two.jpg') 50% 0 no-repeat;
+  background: url('../img/slide2.jpg') no-repeat;
+  background-size: cover;
+}
+.header-back.tree {
+  background: url('../img/slide3.jpg') no-repeat;
+  background-size: cover;
 }
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 /* Carousel base class */
 .carousel {
-  height: 470px;
+  height: 340px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -166,7 +173,7 @@ h1 {
 }
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 470px;
+  height: 340px;
   background-color: #777;
 }
 .carousel-inner > .item > img {
@@ -174,7 +181,7 @@ h1 {
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 470px;
+  height: 340px;
 }
 .carousel-fade .carousel-inner .item {
   opacity: 0;
