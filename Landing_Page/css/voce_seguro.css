@@ -1,0 +1,40 @@
+/* ----------- Section Serviços ------------ */
+#servicos{
+	background: #F0FFF0;
+	padding-bottom: 50px;
+}
+.title-cards-servicos{
+	font-weight: 500;
+	margin-bottom: 50px;
+}
+
+.header-cards-servicos{
+	background-color: #005dab !important;
+}
+.image-cards-servicos{
+	width: 360px;
+}
+
+.bottom-cards-servicos{
+	padding: 30px 5px 10px 5px;
+	text-align:center;
+	box-shadow: 7px 8px 9px -9px #ccc;
+	border: 1px solid #87CEEB;
+	background-color: #fff;
+}
+.texto-cards-servicos{
+	font-size: 15px;
+	color: #000;		
+}
+/* ----------- Section Equipamentos ------------ */
+
+.slide-equipamentos{
+	margin-bottom: 100px;
+}
+
+@media (max-width: 767px){
+	.cards-servicos{
+		margin-left: 20%;
+		margin-bottom: 30px;
+	}
+}
