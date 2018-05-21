@@ -40,8 +40,62 @@
 	}
 }
 
-/* ----------- Section Quem Somos ------------ */
+/* ----------- Section Quem Somos ------------
 
-.icons{
-	background: 
+.icons a{
+	background: #1E90FF;
+	padding: 10px;
+	height: 120px;
+	width: 120px;
+	display: block;
+	border-radius: 100px;
+	align-items: center;
+	margin: auto;
 }
+.icons-side a{
+	background: #1E90FF;
+	height: 100px;
+	width: 100px;
+	display: block;
+	border-radius: 100px;
+	align-items: center;
+	margin: auto;
+	vertical-align: middle;
+}
+*/
+
+.central{
+	margin-top: 50px;
+}
+ .icons{
+ 	background: #1E90FF;
+ 	padding: 10px;
+	height: 100px;
+	width: 100px;
+	display: block;
+	border-radius: 100px;
+	margin: auto;
+ }
+
+ .icons:hover{
+	background: #00BFFF;
+ }
+
+ .icons a{
+ 	font-size: 60px;
+ 	color: #fff;
+ }
+
+ .side{
+ 	padding-top: 10px;
+ }
+
+.side a{
+ 	width: 80px;
+ 	height: 80px;
+ 	font-size: 50px; 	
+ }
+
+ small{
+ 	color: #005dab !important;
+ }
