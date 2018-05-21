@@ -28,8 +28,9 @@
 }
 /* ----------- Section Equipamentos ------------ */
 
-.slide-equipamentos{
+.espaco-chamadas{
 	margin-bottom: 100px;
+	padding-top: 50px;
 }
 
 @media (max-width: 767px){
@@ -37,4 +38,10 @@
 		margin-left: 20%;
 		margin-bottom: 30px;
 	}
+}
+
+/* ----------- Section Quem Somos ------------ */
+
+.icons{
+	background: 
 }
